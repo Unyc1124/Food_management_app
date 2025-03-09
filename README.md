@@ -11,28 +11,30 @@ The Food Management App is designed to help users manage their meal plans effici
 - SharedPreferences Integration: Meal plans are stored persistently across app sessions using SharedPreferences.
 
 3. Screens in the app
-- SplashScreen
-- Meal Plan Screen
-- Add Plan Screen
-- Set Plan Screen - Double tap on meal plan card (Gesture detector feature)
-- Meal Tracker Screen
-- Feedback Screen
-- Demonstration Video link : https://drive.google.com/file/d/1NOPMaSlRlxYI8tvgdSysYcyjeNeV_fvo/view?usp=drivesdk
+   - SplashScreen
+   - Meal Plan Screen
+   - Add Plan Screen
+   - Set Plan Screen - Double tap on meal plan card (Gesture detector feature)
+   - Meal Tracker Screen
+   - Feedback Screen
+   - Demonstration Video link : https://drive.google.com/file/d/1NOPMaSlRlxYI8tvgdSysYcyjeNeV_fvo/view?usp=drivesdk
 
 
 4. State Management with MobX
+   
 MobX is a reactive state management library that simplifies managing app state with a focus on observables and reactions.
 
-5. Why MobX for Small Scale Apps?
+6. Why MobX for Small Scale Apps?
+   
    MobX is particularly suitable for small-scale apps due to:
    - Simplicity: MobX has a simple API, making it easy to integrate and use.
    - Reactivity: It automatically updates the UI when observable data changes, providing a smooth user experience.
-   - Minimal Boilerplate: Unlike other state management libraries like Provider or BLoC, MobX requires less boilerplate code, making it ideal for small apps with moderate complexity.
+   - Minimal Boilerplate: Unlike other state management libraries like Provider or BLoC, MobX requires less boilerplate code, making it ideal for small apps with       moderate complexity.
 
    For larger-scale apps, MobX may become harder to manage due to performance concerns, especially with many observable states and actions. For such apps, more        structured state management solutions like BLoC or Redux might be more appropriate.
 
 
-6. SharedPreferences for Data Persistence
+8. SharedPreferences for Data Persistence
 
 How SharedPreferences is Used:
 - Adding Data: When a new meal plan is created, it is encoded to JSON and stored in SharedPreferences.
