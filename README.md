@@ -40,6 +40,7 @@ How SharedPreferences is Used:
 - Deleting Data: Users can delete meal plans, and the removal is reflected in SharedPreferences, ensuring data consistency between app sessions.
 
 7. Add and Delete Functionality:
+   
 a. Add a Meal Plan: 
    - The user inputs meal plan details (e.g., plan name, frequency, amount) and selects meals.
    - Once the form is submitted, the new plan is saved to SharedPreferences.
