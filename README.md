@@ -24,12 +24,12 @@ The Food Management App is designed to help users manage their meal plans effici
 MobX is a reactive state management library that simplifies managing app state with a focus on observables and reactions.
 
 5. Why MobX for Small Scale Apps?
-MobX is particularly suitable for small-scale apps due to:
-- Simplicity: MobX has a simple API, making it easy to integrate and use.
-- Reactivity: It automatically updates the UI when observable data changes, providing a smooth user experience.
-- Minimal Boilerplate: Unlike other state management libraries like Provider or BLoC, MobX requires less boilerplate code, making it ideal for small apps with moderate complexity.
+   MobX is particularly suitable for small-scale apps due to:
+   - Simplicity: MobX has a simple API, making it easy to integrate and use.
+   - Reactivity: It automatically updates the UI when observable data changes, providing a smooth user experience.
+   - Minimal Boilerplate: Unlike other state management libraries like Provider or BLoC, MobX requires less boilerplate code, making it ideal for small apps with moderate complexity.
 
-For larger-scale apps, MobX may become harder to manage due to performance concerns, especially with many observable states and actions. For such apps, more structured state management solutions like BLoC or Redux might be more appropriate.
+   For larger-scale apps, MobX may become harder to manage due to performance concerns, especially with many observable states and actions. For such apps, more        structured state management solutions like BLoC or Redux might be more appropriate.
 
 
 6. SharedPreferences for Data Persistence
@@ -41,27 +41,27 @@ How SharedPreferences is Used:
 
 7. Add and Delete Functionality:
    
-a. Add a Meal Plan: 
+   a. Add a Meal Plan: 
    - The user inputs meal plan details (e.g., plan name, frequency, amount) and selects meals.
    - Once the form is submitted, the new plan is saved to SharedPreferences.
    - The app immediately updates the UI to show the new meal plan.
 
-b. Delete a Meal Plan:
+   b. Delete a Meal Plan:
    - Users can delete a meal plan by tapping on it, which removes it from the list.
    - Upon deletion, the plan is removed from SharedPreferences and the local state is updated.
    - A confirmation message is displayed after the deletion.
 
 
 8. Screens and Navigation
-a. Meal Plan Screen: Displays a list of all saved meal plans.
+   a. Meal Plan Screen: Displays a list of all saved meal plans.
    - Users can view meal details.
    - Meal plans can be added by navigating to the "Add Plan" screen.
 
-b. Add Plan Screen: Provides a form to add a new meal plan.
+   b. Add Plan Screen: Provides a form to add a new meal plan.
    - Includes input fields for plan name, amount, frequency, and meal options.
    - The user can toggle the price breakdown for each meal.
 
-c. Delete Plan: When a meal plan is tapped, it is deleted from the list, and the changes are saved to SharedPreferences.
+   c. Delete Plan: When a meal plan is tapped, it is deleted from the list, and the changes are saved to SharedPreferences.
 
 9. Technologies Used
 - MobX: State management for reactive UI updates.
