@@ -1,0 +1,226 @@
+{
+    "menu": {
+        "breakfast": [
+            {
+                "item_name": "Masala Dosa",
+                "description": "Crispy dosa filled with spicy potato masala, served with chutney and sambar",
+                "price": 120
+            },
+            {
+                "item_name": "Aloo Paratha",
+                "description": "Stuffed whole wheat flatbread served with curd and pickle",
+                "price": 100
+            },
+            {
+                "item_name": "Poha",
+                "description": "Flattened rice cooked with onions, mustard seeds, and turmeric",
+                "price": 80
+            },
+            {
+                "item_name": "Idli-Sambar",
+                "description": "Soft steamed rice cakes served with sambar and coconut chutney",
+                "price": 90
+            },
+            {
+                "item_name": "Chole Bhature",
+                "description": "Spicy chickpeas served with fluffy deep-fried bread",
+                "price": 150
+            },
+            {
+                "item_name": "Upma",
+                "description": "Savory semolina porridge with vegetables and spices",
+                "price": 70
+            },
+            {
+                "item_name": "Puri-Sabzi",
+                "description": "Deep-fried puris served with spicy potato curry",
+                "price": 110
+            },
+            {
+                "item_name": "Bread Butter",
+                "description": "Fresh bread slices with creamy butter",
+                "price": 50
+            }
+        ],
+        "lunch": [
+            {
+                "item_name": "Paneer Butter Masala",
+                "description": "Cottage cheese cooked in creamy tomato gravy served with naan",
+                "price": 220
+            },
+            {
+                "item_name": "Chicken Biryani",
+                "description": "Aromatic basmati rice cooked with marinated chicken and spices",
+                "price": 280
+            },
+            {
+                "item_name": "Dal Tadka with Jeera Rice",
+                "description": "Yellow lentils tempered with spices served with cumin-flavored rice",
+                "price": 190
+            },
+            {
+                "item_name": "Mutton Rogan Josh",
+                "description": "Slow-cooked mutton in a flavorful red curry",
+                "price": 350
+            },
+            {
+                "item_name": "Vegetable Thali",
+                "description": "A wholesome platter with roti, rice, dal, sabzi, curd, and dessert",
+                "price": 250
+            },
+            {
+                "item_name": "Hyderabadi Veg Biryani",
+                "description": "Spicy and flavorful biryani made with mixed vegetables",
+                "price": 230
+            },
+            {
+                "item_name": "Fish Fry with Lemon Rice",
+                "description": "Crispy fried fish served with tangy lemon rice",
+                "price": 300
+            }
+        ],
+        "snacks": [
+            {
+                "item_name": "Samosa (2 pieces)",
+                "description": "Crispy fried pastry filled with spiced potatoes and peas",
+                "price": 40
+            },
+            {
+                "item_name": "Pani Puri",
+                "description": "Crispy puris filled with spiced water, chutneys, and stuffing",
+                "price": 60
+            },
+            {
+                "item_name": "Masala Tea",
+                "description": "Traditional Indian spiced tea",
+                "price": 30
+            },
+            {
+                "item_name": "Veg Cutlet",
+                "description": "Crispy fried cutlet made with vegetables and spices",
+                "price": 50
+            },
+            {
+                "item_name": "Pav Bhaji",
+                "description": "Spicy vegetable mash served with buttered pav",
+                "price": 150
+            },
+            {
+                "item_name": "Onion Pakoda",
+                "description": "Crispy onion fritters seasoned with spices",
+                "price": 70
+            },
+            {
+                "item_name": "Bread Pakoda",
+                "description": "Deep-fried bread slices stuffed with potato masala",
+                "price": 90
+            },
+            {
+                "item_name": "Vada Pav",
+                "description": "Mumbai's iconic potato fritter sandwich served with chutneys",
+                "price": 60
+            }
+        ],
+        "dinner": [
+            {
+                "item_name": "Butter Chicken",
+                "description": "Tender chicken cooked in creamy tomato gravy served with naan",
+                "price": 320
+            },
+            {
+                "item_name": "Malai Kofta",
+                "description": "Paneer and vegetable dumplings in a rich creamy gravy",
+                "price": 280
+            },
+            {
+                "item_name": "Fish Curry with Steamed Rice",
+                "description": "Fresh fish cooked in tangy coconut curry served with rice",
+                "price": 350
+            },
+            {
+                "item_name": "Tandoori Roti (2 pieces)",
+                "description": "Whole wheat flatbread cooked in a tandoor",
+                "price": 40
+            },
+            {
+                "item_name": "Veg Pulao",
+                "description": "Fragrant rice cooked with vegetables and spices",
+                "price": 200
+            },
+            {
+                "item_name": "Matar Paneer",
+                "description": "Cottage cheese and peas cooked in a spiced tomato gravy",
+                "price": 240
+            },
+            {
+                "item_name": "Kadai Chicken",
+                "description": "Spicy chicken curry with bell peppers and onions",
+                "price": 340
+            },
+            {
+                "item_name": "Gulab Jamun (2 pieces)",
+                "description": "Soft milk-based sweet dumplings soaked in sugar syrup",
+                "price": 80
+            }
+        ],
+        "beverages": [
+            {
+                "item_name": "Fresh Lime Soda",
+                "description": "Refreshing lime soda served sweet or salty",
+                "price": 70
+            },
+            {
+                "item_name": "Cold Coffee",
+                "description": "Chilled coffee served with ice cream",
+                "price": 120
+            },
+            {
+                "item_name": "Mango Shake",
+                "description": "Thick mango shake made with fresh mangoes",
+                "price": 150
+            },
+            {
+                "item_name": "Masala Chaas",
+                "description": "Spiced buttermilk drink to cool your senses",
+                "price": 50
+            },
+            {
+                "item_name": "Hot Coffee",
+                "description": "Classic hot coffee brewed to perfection",
+                "price": 90
+            },
+            {
+                "item_name": "Lassi",
+                "description": "Sweet yogurt-based drink served chilled",
+                "price": 100
+            }
+        ],
+        "desserts": [
+            {
+                "item_name": "Ras Malai",
+                "description": "Soft paneer dumplings in sweetened creamy milk",
+                "price": 120
+            },
+            {
+                "item_name": "Chocolate Brownie",
+                "description": "Rich chocolate brownie served with vanilla ice cream",
+                "price": 150
+            },
+            {
+                "item_name": "Kulfi (2 pieces)",
+                "description": "Traditional Indian frozen dessert",
+                "price": 100
+            },
+            {
+                "item_name": "Gajar Halwa",
+                "description": "Carrot-based dessert with ghee, sugar, and nuts",
+                "price": 120
+            },
+            {
+                "item_name": "Ice Cream Sundae",
+                "description": "A mix of ice creams topped with chocolate syrup and nuts",
+                "price": 180
+            }
+        ]
+    }
+}

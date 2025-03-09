@@ -1,0 +1,964 @@
+{
+    "mealPlans": [
+        {
+            "id": 1,
+            "name": "Option Plan 1",
+            "frequency": "weekly",
+            "amount": 200,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Option Plan 2",
+            "frequency": "monthly",
+            "amount": 400,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Option Plan 3",
+            "frequency": "daily",
+            "amount": 600,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Option Plan 4",
+            "frequency": "weekly",
+            "amount": 800,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Option Plan 5",
+            "frequency": "monthly",
+            "amount": 1000,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Option Plan 6",
+            "frequency": "daily",
+            "amount": 1200,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Option Plan 7",
+            "frequency": "weekly",
+            "amount": 1400,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Option Plan 8",
+            "frequency": "monthly",
+            "amount": 1600,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Option Plan 9",
+            "frequency": "daily",
+            "amount": 1800,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Option Plan 10",
+            "frequency": "weekly",
+            "amount": 2000,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Option Plan 11",
+            "frequency": "monthly",
+            "amount": 2200,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Option Plan 12",
+            "frequency": "daily",
+            "amount": 2400,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Option Plan 13",
+            "frequency": "weekly",
+            "amount": 2600,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Option Plan 14",
+            "frequency": "monthly",
+            "amount": 2800,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Option Plan 15",
+            "frequency": "daily",
+            "amount": 3000,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Option Plan 16",
+            "frequency": "weekly",
+            "amount": 3200,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Option Plan 17",
+            "frequency": "monthly",
+            "amount": 3400,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Option Plan 18",
+            "frequency": "daily",
+            "amount": 3600,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Option Plan 19",
+            "frequency": "weekly",
+            "amount": 3800,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Option Plan 20",
+            "frequency": "monthly",
+            "amount": 4000,
+            "meals": [
+                {
+                    "type": "Breakfast",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "items": [
+                        "Poha",
+                        "Tea",
+                        "Idli"
+                    ]
+                },
+                {
+                    "type": "Lunch",
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "items": [
+                        "Roti",
+                        "Rice",
+                        "Dal",
+                        "Salad"
+                    ]
+                },
+                {
+                    "type": "Snacks",
+                    "startTime": "16:00",
+                    "endTime": "16:30",
+                    "items": [
+                        "Samosa",
+                        "Chai"
+                    ]
+                },
+                {
+                    "type": "Dinner",
+                    "startTime": "19:30",
+                    "endTime": "20:30",
+                    "items": [
+                        "Paneer Curry",
+                        "Naan",
+                        "Soup"
+                    ]
+                }
+            ]
+        }
+    ]
+}
