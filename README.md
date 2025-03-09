@@ -53,25 +53,12 @@ How SharedPreferences is Used:
    - Upon deletion, the plan is removed from SharedPreferences and the local state is updated.
    - A confirmation message is displayed after the deletion.
 
-
-8. Screens and Navigation
-   
-   a. Meal Plan Screen: Displays a list of all saved meal plans.
-   - Users can view meal details.
-   - Meal plans can be added by navigating to the "Add Plan" screen.
-
-   b. Add Plan Screen: Provides a form to add a new meal plan.
-   - Includes input fields for plan name, amount, frequency, and meal options.
-   - The user can toggle the price breakdown for each meal.
-
-   c. Delete Plan: When a meal plan is tapped, it is deleted from the list, and the changes are saved to SharedPreferences.
-
-10. Technologies Used
+8. Technologies Used
 - MobX: State management for reactive UI updates.
 - SharedPreferences: Persistent storage of meal plans across app sessions.
 - Flutter: Framework for building cross-platform apps.
 - Json Parsing: Json Parsing for displaying the menu.
 
 
-10. Conclusion:
+9. Conclusion:
 This app serves as an efficient solution for managing meal plans with persistent storage and reactive state management. MobX is ideal for this small-scale app due to its simplicity and reactivity. SharedPreferences ensures that meal plans are stored and retrieved seamlessly between app sessions, providing a consistent user experience.
