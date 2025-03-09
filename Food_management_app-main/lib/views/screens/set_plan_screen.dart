@@ -80,7 +80,7 @@ class _SetPlanScreenState extends State<SetPlanScreen> {
                         },
                         activeColor: Colors.green,
                       ),
-                      const Text("Veg 🥦", style: TextStyle(fontSize: 16, color: Colors.green)),
+                      const Text("Veg 🟢", style: TextStyle(fontSize: 16, color: Colors.green)),
 
                       const SizedBox(width: 20),
 
@@ -94,7 +94,7 @@ class _SetPlanScreenState extends State<SetPlanScreen> {
                         },
                         activeColor: Colors.red,
                       ),
-                      const Text("Non-Veg 🍗", style: TextStyle(fontSize: 16, color: Colors.red)),
+                      const Text("Non-Veg 🔴", style: TextStyle(fontSize: 16, color: Colors.red)),
                     ],
                   ),
                 ],
@@ -109,7 +109,7 @@ class _SetPlanScreenState extends State<SetPlanScreen> {
                     if (itemController.text.isNotEmpty && (isVeg || isNonVeg)) {
                       setState(() {
                         _meals[mealType]?.items.add(
-                          "${isVeg ? "🥦" : "🍗"} ${itemController.text}",
+                          "${isVeg ? "🟢" : "🔴"} ${itemController.text}",
                         );
                       });
                       Navigator.pop(context);

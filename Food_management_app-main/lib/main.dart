@@ -73,9 +73,9 @@ class SplashScreen extends StatelessWidget {
                         ),
                       ),
                       ColorizeAnimatedText(
-                        ' 😋 Food Management',
+                        ' 😋Food Management ',
                         textStyle: GoogleFonts.ribeyeMarrow(
-                          fontSize: 30.0,
+                          fontSize: 25.0,
                           fontWeight: FontWeight.bold,
                         ),
                         colors: colorizeColors,
