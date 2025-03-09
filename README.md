@@ -53,6 +53,7 @@ How SharedPreferences is Used:
 
 
 8. Screens and Navigation
+   
    a. Meal Plan Screen: Displays a list of all saved meal plans.
    - Users can view meal details.
    - Meal plans can be added by navigating to the "Add Plan" screen.
@@ -63,7 +64,7 @@ How SharedPreferences is Used:
 
    c. Delete Plan: When a meal plan is tapped, it is deleted from the list, and the changes are saved to SharedPreferences.
 
-9. Technologies Used
+10. Technologies Used
 - MobX: State management for reactive UI updates.
 - SharedPreferences: Persistent storage of meal plans across app sessions.
 - Flutter: Framework for building cross-platform apps.
